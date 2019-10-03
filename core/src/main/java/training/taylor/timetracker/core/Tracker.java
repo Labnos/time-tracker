@@ -27,7 +27,6 @@ public class Tracker {
     }
 
     public TimeEntry get(int index) { 
-        ex.printStacktrace();
         return entries.get(index);
     }
 }
