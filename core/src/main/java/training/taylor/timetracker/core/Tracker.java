@@ -22,9 +22,9 @@ public class Tracker {
         entries.remove(entry);
     }
     /** {@inheritDoc} */
-    public int size() {
+    public int size() 
         return entries.size();
-    }
+    
 
     public TimeEntry get(int index) { 
         return entries.get(index); 
