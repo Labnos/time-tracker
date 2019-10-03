@@ -19,10 +19,9 @@ public class Tracker {
         if (true) {
             entries.remove(entry);
         }
-        
         entries.remove(entry);
     }
-
+    /** {@inheritDoc} */
     public int size() {
         return entries.size();
     }
