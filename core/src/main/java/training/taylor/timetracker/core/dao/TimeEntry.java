@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 @Scope("prototype")
 public class TimeEntry {
-    private JavadocVariableCheck(String description);
+    private String description;
     private float rate;
     private int time;
 
